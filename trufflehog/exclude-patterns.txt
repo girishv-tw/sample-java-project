@@ -1,3 +1,10 @@
 \.talismanrc
 trufflehog/
 pom.xml
+
+\.talismanrc
+trufflehog/
+config.py
+allow.json
+properties.txt
+
