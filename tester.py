@@ -5,8 +5,17 @@ Issues
 Marketplace
 Explore
  
-@anuragpathak2608 
-shopizer-ecommerce
+AWSSecret = qAx9A2sPJ2Dtr+6XQTfwOU6R93oOu83+A+z0gP+1
+
+
+Github_key = ghp_0PpFHABiskZ4c5PlQqszQ6jW9tHhTL4NqVFh
+
+
+Rajorpay = ibrzp_q2ke6J_K0Nn8cY0a9eBFJuME3b
+
+
+POSTman_key = PMAK-62be77b7574dccssddsc7e9b5a8asdfasdfadsfac50da40973c55f3806b
+
 /
 shopizer
 Public
