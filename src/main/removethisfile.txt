@@ -2,3 +2,14 @@
 aws_access_key_id = AKIAYVP4CIPPJDEAWH4T
 aws_secret_access_key = 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
 output = json
+
+
+[Interface]
+  PrivateKey = WXHZ0EsTb3YmYmrX4LrYp8hZ2HkmXgeKkS8mAKn87UA=
+  Address = 192.168.123.107/32
+
+[Peer]
+  PublicKey = +Up8XeX0jO1oNufQH3esIiSIm64iq6nrFQMYa1BBRUg=
+  AllowedIPs = 192.168.1.0/24
+  Endpoint = 52.18.63.80:51820
+  PersistentKeepalive = 60
