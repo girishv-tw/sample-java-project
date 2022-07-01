@@ -2,7 +2,7 @@ app_token = "ajdksjaksdjkajsdkajdkajddsadasdasdasda"
 
 # AWS
 secret_key=R4nm063hgMSADT5xOs5nHLeLXA6lar7ZJ3Nt0j
-
+strip = sk_live_0nEUvve0oka2ClenVfBLIOXt00p52bGLZk
 pass = "R4nm063hgMSADT5xOs5"
 secret = "P@sswo0rd"
 key=R4nm063hgMSADT5xOs5nHLeLXA6lar7ZJ3Nt0j
