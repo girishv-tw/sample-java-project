@@ -5,7 +5,7 @@ Issues
 Marketplace
 Explore
  
-AWSSecret = qAx9A2sPJ2Dtr+6XQTfwOU6R93oOu83+A+z0gP+1
+secret_key = qAx9A2sPJ2Dtr+6XQTfwOU6R93oOu83+A+z0gP+1
 
 
 Github_key = ghp_0PpFHABiskZ4c5PlQqszQ6jW9tHhTL4NqVFh
