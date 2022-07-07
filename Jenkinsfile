@@ -1,23 +1,23 @@
 pipeline {
-  agent any
+  agent any 
+  tools {
+    maven 'Maven'
+  }
   stages {
-  stage('Check out') {
+    stage ('Initialize') {
       steps {
-        script {
-          git clone https://github.com/anuragpathak2608/sample-java-project
-          cd sample-java-project
-          mvn -B package --file pom.xml
-          go version
-          pwd
-        }
+        sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+            ''' 
       }
     }
-  stage('Stage 2') {
+     stage ('Build') {
       steps {
-        script {
-          echo 'Stage 2'
-        }
+          sh 'pwd'
+          sh 'mvn clean package'
       }
-    }
+     }
+     
   }
 }
