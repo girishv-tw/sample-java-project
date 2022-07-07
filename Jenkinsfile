@@ -16,7 +16,7 @@ pipeline {
       steps {
           sh 'pwd'
           sh 'echo $PATH'
-          sh '/usr/local/bin/trufflehog git file://. --only-verified'
+          sh '/usr/local/bin/trufflehog git file://. --only-verified --json--fail >> truflehog.log'
       }
      }
     
