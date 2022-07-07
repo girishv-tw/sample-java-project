@@ -12,17 +12,18 @@ pipeline {
             ''' 
       }
     }
+     stage ('trufflehog sca') {
+      steps {
+          sh 'pwd'
+          sh 'ls'
+      }
+     }
+    
      stage ('Build') {
       steps {
           sh 'pwd'
           sh 'mvn clean package'
       }
      }
-          post {
-                success {
-                    archiveArtifacts 'target/*.jar'
-                }
-            }
-     
   }
 }
