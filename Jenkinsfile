@@ -14,7 +14,7 @@ pipeline {
     }
      stage ('trufflehog sca') {
       steps {
-          sh 'pwd'
+          sh 'trufflehog git file://. --only-verified'
           sh 'ls'
       }
      }
