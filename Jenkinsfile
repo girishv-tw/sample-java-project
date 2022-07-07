@@ -12,10 +12,10 @@ pipeline {
             ''' 
       }
     }
-     stage ('trufflehog sca') {
+     stage ('trufflehog scan') {
       steps {
+          sh 'pwd'
           sh 'trufflehog git file://. --only-verified'
-          sh 'ls'
       }
      }
     
