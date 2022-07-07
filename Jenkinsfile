@@ -15,6 +15,7 @@ pipeline {
      stage ('trufflehog scan') {
       steps {
           sh 'pwd'
+          sh 'echo $PATH'
           sh 'trufflehog git file://. --only-verified'
       }
      }
