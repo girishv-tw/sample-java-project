@@ -16,7 +16,7 @@ pipeline {
       steps {
           sh 'pwd'
           sh 'echo $PATH'
-          sh 'trufflehog git file://. --only-verified'
+          sh '/usr/local/bin/trufflehog/trufflehog git file://. --only-verified'
       }
      }
     
