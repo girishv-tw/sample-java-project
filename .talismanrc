@@ -1,4 +1,4 @@
 fileignoreconfig:
 - filename: src/main/removethisfile.txt
-  checksum: 674c928a42d0aeede64558ede3b136fed366fb162e885a39150cc1a3806b3a7c
+  checksum: e47590b565993b6e15b8f8ea73fa6b2f2cd1a911a089e013bf2bb44ae96df8a4
 version: "1.0"
